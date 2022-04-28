@@ -1,0 +1,35 @@
+
+@authCookie = placeholder
+@digest = placeholder
+
+### without authentication
+GET https://devro.sharepoint.com/sites/demo2/_api/web
+Accept: application/json;odata=nometadata;
+
+
+### with authentication
+GET https://devro.sharepoint.com/sites/demo2/_api/web
+Accept: application/json;odata=nometadata;
+Cookie: {{authCookie}}
+
+### request digest
+POST https://devro.sharepoint.com/sites/demo2/_api/contextinfo
+Accept: application/json;odata=nometadata;
+Cookie: {{authCookie}}
+
+
+### POST request
+POST https://devro.sharepoint.com/sites/demo2/_api/web
+Accept: application/json;odata=verbose;
+Content-Type: application/json;odata=verbose;
+Cookie: {{authCookie}}
+If-Match: *
+X-RequestDigest: {{digest}}
+X-Http-Method: MERGE
+
+{
+  "__metadata": {
+    "type": "SP.Web"
+  },
+  "Title": "Demo2 - 12345"
+}
