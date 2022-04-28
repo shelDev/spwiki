@@ -45,17 +45,12 @@ src: url('octocons.woff'), url('octocons.woff') format('woff');}
 .octicon-code:before {
   content: '\f05f';}
 
-/* ïƒ */
-/* line 111, /home/runner/work/atom-io/atom-io/vendor/assets/bower_components/octicons/octicons/sprockets-octicons.scss */
 .octicon-heart:before {
-  content: '\2665';
-}
+  content: '\2665';}
 
-/* ïª */
-/* line 140, /home/runner/work/atom-io/atom-io/vendor/assets/bower_components/octicons/octicons/sprockets-octicons.scss */
 .octicon-logo-github:before {
-  content: '\f092';
-}
+  content: '\f092';}
+
 .footer {
     background-color: #efeae1;
     height: 55px;
