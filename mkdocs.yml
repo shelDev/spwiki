@@ -1,0 +1,148 @@
+# Project information
+site_name: 'SP wiki'
+site_description: 'Personal SharePoint Fx Knowledgebase'
+site_author: 'Michelle R Gilbank'
+
+pages:
+    - Home: index.md
+    - SPFx:
+        - Start: spfx/start.md
+        - Architecture: spfx/architecture.md
+        - ACE: spfx/ace.md
+        - Azure: spfx/azure.md
+        - AI: spfx/ai.md
+        - Adaptive-Cards: spfx/adaptive-cards.md
+        - Branding: spfx/branding.md
+        - Bot: spfx/bot.md
+        - Business-Objects: spfx/businessobjects.md
+        - Classic-Sites: spfx/classic.md
+        - Column-Formating: spfx/column-formating.md
+        - Configuration: spfx/configuration.md
+        - Cortex: spfx/cortex.md
+        - Communication-Site: spfx/communication-site.md
+        - Dev-Ops: spfx/dev-ops.md
+        - Debug: spfx/debug.md
+        - Deployment: spfx/deployment.md
+        - Delve: spfx/delve.md
+        - Docker: spfx/docker.md
+        - Extensions: spfx/extensions.md
+        - Events: spfx/events.md
+        - Flow: spfx/flow.md
+        - Forms: spfx/forms.md
+        - Groups: spfx/groups.md
+        - Governance: spfx/governance.md
+        - Graph: spfx/graph.md
+        - Hubsite: spfx/hubsite.md
+        - Intranet: spfx/intranet.md
+        - JS: spfx/js.md
+        - Listitem: spfx/listitem.md
+        - Logging: spfx/logging.md
+        - MUI: spfx/mui.md
+        - Modern-page: spfx/modernpage.md
+        - Network: spfx/network.md
+        - Patterns: spfx/patterns.md
+        - Planner: spfx/planner.md
+        - Provisioning: spfx/provisioning.md
+        - Migration: spfx/migration.md
+        - REST: spfx/rest.md
+        - Recipes: spfx/recipes.md
+        - SiteScripts: spfx/sitescripts.md
+        - SiteDesign: spfx/sitedesign.md
+        - Search: spfx/search.md
+        - Snippets: spfx/snippets.md
+        - SP2016: spfx/sp2016.md
+        - SP2019: spfx/sp2019.md
+        - Support: spfx/support.md
+        - Starter-Kit: spfx/starterkit.md
+        - Typescript: spfx/typescript.md
+        - Testing: spfx/testing.md
+        - Teams: spfx/teams.md
+        - Teams-Adoption: spfx/teams-adoption.md
+        - Theme: spfx/theme.md
+        - Toolchain: spfx/toolchain.md
+        - Userprofile: spfx/userprofile.md
+        - UX: spfx/ux.md
+        - Upgrade: spfx/upgrade.md
+        - Versions: spfx/versions.md
+        - Webhooks: spfx/webhooks.md
+        - Webparts: spfx/webparts.md
+    - JS:
+        - js/guide.md
+        - js/pwa.md
+    - Training:
+        - Course: training/course.md
+        - Must read: training/must-read.md
+        - Learning: training/learning.md
+        - Redux: training/redux.md
+        - MS-600: training/ms-600.md
+    - Powershell:
+        - GraphSDK: powershell/graphsdk-ps.md
+        - Powershell: powershell/powershell.md
+        - PnP-PS: powershell/pnp-ps.md
+        - SPO-PS: powershell/spo-ps.md
+        - Teams: powershell/teams.md
+        - PowerApps: powershell/powerapps.md
+    - Tools:
+        - Dev: tools/dev.md
+        - Powerapps: tools/powerapps.md
+        - Powerapps-Portal: tools/powerappsportal.md
+        - Image: tools/image.md
+        - Gatspy: tools/gatspy.md
+        - Git: tools/git.md
+        - Markdown: tools/markdown.md
+        - MkDocs: tools/mkdocs.md
+    - Security:
+        - Learning: security/learning.md
+    - About:
+      - About: about/about.md
+      - Help: about/help.md
+
+copyright: 'Copyright &copy; 2018 Roland Oechslin'
+
+extra:
+    version: 1.0.0
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'assets/sharepoint.png'
+  feature:
+    tabs: true
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+repo_url: https://github.com/rolandoechslin/spfx-kb
+edit_uri: blob/master/docs/
