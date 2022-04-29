@@ -41,26 +41,7 @@ mkdocs build
 ```Powershell
 mkdocs gh-deploy
 ```
-<style>
-@font-face{
-font-family: octocons;
-src: url('octocons.woff'), url('octocons.woff') format('woff');}
-.octicon-code:before {
-  content: '\f05f';}
-
-.octicon-heart:before {
-  content: '\2665';}
-
-.octicon-logo-github:before {
-  content: '\f092';}
-
-.footer {
-    background-color: #efeae1;
-    height: 55px;
-    padding: 15px;
-}
-</style>
 
 
 
-<span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <a href="https://shelDev.github.io"><img src="/src/octocat.png" height=16 width=16></a> on </span><a href="https://github.com"><span class="octicon octicon-logo-github"></span></a>
+<img src="/icons/code-24.svg" alt="coded"> with <img src="/icons/heart-24.svg" alt="love"> by <a href="https://shelDev.github.io"><img src="/icons/shelDev.png" alt="shelDev" height=16 width=16></a> on <a href="https://github.com"><img src="/icons/mark-github-24.svg" alt="github"></a>
